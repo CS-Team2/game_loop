@@ -14,5 +14,5 @@ player_setup() {
 	}
 }
 enemy_setup() {
-	struct param enemie1 = { "enemie1",100,100,100 };
+	struct param enemy1 = { "enemy1",100,100,100 };
 }
