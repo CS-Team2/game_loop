@@ -14,5 +14,4 @@ enemy_setup() {
 	struct param enemy4 = { "enemy4",110,15,4 };
 	struct param enemy5 = { "enemy5",125,15,6 };
 	struct param boss = { "boss",150,15,8 };
-	int hp, mp, attack;
 }
