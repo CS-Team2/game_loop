@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "rule.h"
 
 int KEY(int *Kn, int *Y, int *X);
 int key_get();
@@ -138,7 +139,7 @@ int main(void)
 		}
 
 		printf("移動方法を入力してください\n");
-
+		printf("h:ルール説明\n");
 		//入力キー
 		KEY(&nyr, &sty, &stx);
 
@@ -176,6 +177,7 @@ int KEY(int *nyr, int *Y, int *X) {
 			break;
 		}
 		else if (*nyr == 0x1b) {}// Escキー
+		else if (*nyr == 'h') { discription(); }
 	  //else if (*Kn==0x  ){}  通常キーをいれるときはここ
 		else { continue; }
 		break;
