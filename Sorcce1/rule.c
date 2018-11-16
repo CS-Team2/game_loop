@@ -3,7 +3,8 @@
 #include "rule.h"
 
 void discription() {//大作浩文　作成
-	printf("------ルール説明-----");
+	system("cls");
+	printf("------ルール説明-----\n");
 	printf("１） 開始時にプレイヤーの選択を行う\n");
     printf("２） CS→BS→MSで左が簡単で右のキャラほど難しい。\n");
     printf("３） 相手はボス以外に５体いてその中のうち一体がボス部屋のカギを持っている。\n");

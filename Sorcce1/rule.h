@@ -1,2 +1,2 @@
 #pragma once
-void discription();
+void discription();//‘åì_•¶@ì¬
